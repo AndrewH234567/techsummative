@@ -42,6 +42,7 @@ li a:hover {
 
 nav {
   width: 230px;
+  position: sticky;
 }
 
 .parag {
