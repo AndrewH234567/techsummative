@@ -38,12 +38,14 @@ li a:hover {
 .content {
   flex: 1;
   text-align: center;
+  overflow-y: auto;
 }
 
 nav {
+  height: 230px;
   width: 230px;
   position: sticky;
-  top: 0;
+  top: 0; /* Stick the nav to the top of the viewport */
 }
 
 .parag {
