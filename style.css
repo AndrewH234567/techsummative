@@ -85,6 +85,10 @@ body {
 
 .eom {
   background-image: url("img/eom.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 /*https://codepen.io/argyleink/pen/RwvOmvY*/
