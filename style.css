@@ -46,6 +46,7 @@ nav {
   width: 230px;
   position: sticky;
   top: 0; /* Stick the nav to the top of the viewport */
+  background-color: rgb(231,205,34);
 }
 
 .parag {
