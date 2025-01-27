@@ -83,5 +83,9 @@ body {
   background-color: rgb(74,111,22);
 }
 
+.eom {
+  background-image: url("img/eom.png");
+}
+
 /*https://codepen.io/argyleink/pen/RwvOmvY*/
 /*https://fonts.google.com/specimen/Playwrite+FR+Moderne*/
