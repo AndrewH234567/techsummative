@@ -82,7 +82,7 @@ nav {
 body {
   background-color: rgb(74,111,22);
 }
-
+/*fix*/
 .eom {
   background-image: url("img/eom.png");
   background-position: center;
