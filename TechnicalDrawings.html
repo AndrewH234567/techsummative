@@ -5,95 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechnicalDrawings</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body class="philosopher-regular">
+    <style>
+        .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px; /* Adjust the gap between images */
+        }
+        .image-item {
+            flex: 1 1 calc(25% - 10px); /* 4 images per row */
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .image-item img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body class="philosopher-regular">
     <div class="container">
-      <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Thetooltote.html">The Tool Tote</a></li>
-            <li><a href="metalwork.html">Metal Work</a></li>
-            <li><a href="TechnicalDrawings.html">Technical Drawings & Onshape</a></li>
-            <li><a href="Electronics.html">Electronics</a></li>
-            <li><a href="Teamwork.html">Teamwork</a></li>
-            <li><a href="careers.html">Careers</a></li>
-            <li><a href="nerfdart.html">Nerf Dart Launcher</a></li>
-          </ul>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Thetooltote.html">The Tool Tote</a></li>
+                <li><a href="metalwork.html">Metal Work</a></li>
+                <li><a href="TechnicalDrawings.html">Technical Drawings & Onshape</a></li>
+                <li><a href="Electronics.html">Electronics</a></li>
+                <li><a href="Teamwork.html">Teamwork</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="nerfdart.html">Nerf Dart Launcher</a></li>
+            </ul>
         </nav>
         <div class="content">
-          <h1>Technical drawings and onshape</h1>
-          <p>Throughout my entire time in Gr 9 Tech, I used onshape througout practically the whole course. This is an overview of all the onshape I did throughout the course.</p>
-          
-          <h2>Learning to cad</h2>
-          <p>At the start of the year, I had no CAD experience, and I learned how to CAD throughout many tutorials, here are a few examples </p>
-          <!--CHANGE THEM SO THAT THEY'RE BESIDE EACHOTHER INSTRAD OF ONE AFTER ANOTHER-->
-          <img src="img/bearing.png">
-          <p>Bearing</p>
-          <img src="img/bracket.png">
-          <p>Bracket</p>
-          <img src="img/bushing.png">
-          <p>Bushing</p>
-          <img src="img/saddlebracket.png">
-          <p>Saddle Bracket</p>
-          <img src="img/snapgauge.png">
-          <p>Snap gauge</p>
-          <img src="img/spacerplate.png">
-          <p>Spacer plate</p>
-          <img src="img/spinner.png">
-          <p>Spinner</p>
-          <img src="img/donothingmachine.png">
-          <p>The Do-Nothing Machine</p>
+            <h1>Technical drawings and onshape</h1>
+            <p>Throughout my entire time in Gr 9 Tech, I used onshape throughout practically the whole course. This is an overview of all the onshape I did throughout the course.</p>
+            
+            <h2>Learning to CAD</h2>
+            <p>At the start of the year, I had no CAD experience, and I learned how to CAD throughout many tutorials, here are a few examples:</p>
+            
+            <!-- Image Grid -->
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="img/bearing.png" alt="Bearing">
+                    <p>Bearing</p>
+                </div>
+                <div class="image-item">
+                    <img src="img/bracket.png" alt="Bracket">
+                    <p>Bracket</p>
+                </div>
+                <div class="image-item">
+                    <img src="img/bushing.png" alt="Bushing">
+                    <p>Bushing</p>
+                </div>
+                <div class="image-item">
+                    <img src="img/saddlebracket.png" alt="Saddle Bracket">
+                    <p>Saddle Bracket</p>
+                </div>
+                <div class="image-item">
+                    <img src="img/snapgauge.png" alt="Snap Gauge">
+                    <p>Snap Gauge</p>
+                </div>
+                <div class="image-item">
+                    <img src="img/spacerplate.png" alt="Spacer Plate">
+                    <p>Spacer Plate</p>
+                </div>
+                <div class="image-item">
+                    <img src="img/spinner.png" alt="Spinner">
+                    <p>Spinner</p>
+                </div>
+                <div class="image-item">
+                    <img src="img/donothingmachine.png" alt="Do-Nothing Machine">
+                    <p>The Do-Nothing Machine</p>
+                </div>
+            </div>
 
-          <h2>
-            CAD and Drawings in projects
-          </h2>
-          <p>After I learned CAD, I used it in virtually all of my projects afterwards</p>
-          <h3>The tool tote</h3>
-          <img src="img/totecad.png">
-          <img src="img/toteonshapedrawing.png">
-          <p>Though the CAD that I did in the end wasn't too useful, the drawing of the CAD that was given was how I got my measurements.</p>
-          <h3>The IronMan</h3>
-          <img src="img/ironmaniso.png">
-          <p>I cadded my whole ironman project after I was done</p>
-          <p>This was a bit tricky as I had a lot of trouble with the ironman's body itself, and</p>
-          <p>the triangular part of the base took a while to figure out, I had to do some weird extrudes and fillets, but</p>
-          <p>eventually, I got it done.</p>
+            <h2>CAD and Drawings in Projects</h2>
+            <p>After I learned CAD, I used it in virtually all of my projects afterwards.</p>
+            <h3>The Tool Tote</h3>
+            <img src="img/totecad.png" alt="Tote CAD">
+            <img src="img/toteonshapedrawing.png" alt="Tote Onshape Drawing">
+            <p>Though the CAD that I did in the end wasn't too useful, the drawing of the CAD that was given was how I got my measurements.</p>
+            <h3>The IronMan</h3>
+            <img src="img/ironmaniso.png" alt="IronMan ISO">
+            <p>I CADed my whole IronMan project after I was done.</p>
+            <p>This was a bit tricky as I had a lot of trouble with the IronMan's body itself, and the triangular part of the base took a while to figure out. I had to do some weird extrudes and fillets, but eventually, I got it done.</p>
 
-          <h3>The Boardgame</h3>
-          <p>I didn't use the 3d printer for this project, however, I did do laser cutting which I used onshape for.</p>
-          <img src="img/tree1.png">
-          <img src="img/tree2.png">
-          <p>These two versions of trees were game elements for our board game</p>
-          <h3>The nerf dart launcher</h3>
-          <img src="img/nerfidea3.png">
-          <img src="img/nerfCadiso.png">
-          <img src="img/nerfCadDrawing.png">
-          <p>My whole launcher was cadded on onshape.</p>
+            <h3>The Boardgame</h3>
+            <p>I didn't use the 3D printer for this project; however, I did do laser cutting, which I used Onshape for.</p>
+            <img src="img/tree1.png" alt="Tree 1">
+            <img src="img/tree2.png" alt="Tree 2">
+            <p>These two versions of trees were game elements for our board game.</p>
+            <h3>The Nerf Dart Launcher</h3>
+            <img src="img/nerfidea3.png" alt="Nerf Idea 3">
+            <img src="img/nerfCadiso.png" alt="Nerf CAD ISO">
+            <img src="img/nerfCadDrawing.png" alt="Nerf CAD Drawing">
+            <p>My whole launcher was CADed on Onshape.</p>
 
-          <h2>Technical Drawings</h2>
-          <h3>The ironman project</h3>
-          <img src="img/ironmandrawing.png">
-          <p>This drawing consists of 3 thumbnail drawing of ideas, which I chose one from, then added detailed measurments to</p>
-          <h3>The Nerf Dart launcher</h3>
-          
-          <a href="nerfdart.html">[see nerf dart launcher page]</a>
-          <h3>Other projects</h3>
-          <p>Sadly, I wasn't able to find any other paper drawing of my other projects, Boardgame and Initials</p>
-          <!--What changes (pros/cons) have technological innocations (inventions) had on YOU and/or society in general?
-Give examples of how technology has helped you design/communicate/build. -->
-          <h2>Conclusion</h2>
-          <p>In conclusion, Onshape has helped me communicate most of my drawings to you through classroom, making my ideas easier to 
-             to show to others so that they can get a clear picture of what I'm trying to do. 
-          </p>
-          <p>Onshape, CAD, and VCarve have all made it so easy to design what I'm thinking, and they're all much more exact than any drawing I would have made on paper, which is extremely useful 
-            because you can see exactly what you're going to make.
-          </p>
-          <p>These technologies has also made it extremely easy to just click export and send a file to the laser cutter, CNC machine, 3D printer, etc which definatly wouldn't be possible without them.</p>
+            <h2>Technical Drawings</h2>
+            <h3>The IronMan Project</h3>
+            <img src="img/ironmandrawing.png" alt="IronMan Drawing">
+            <p>This drawing consists of 3 thumbnail drawings of ideas, which I chose one from, then added detailed measurements to.</p>
+            <h3>The Nerf Dart Launcher</h3>
+            <a href="nerfdart.html">[see nerf dart launcher page]</a>
+            <h3>Other Projects</h3>
+            <p>Sadly, I wasn't able to find any other paper drawings of my other projects, Boardgame and Initials.</p>
 
-
-
-
+            <h2>Conclusion</h2>
+            <p>In conclusion, Onshape has helped me communicate most of my drawings to you through Classroom, making my ideas easier to show to others so that they can get a clear picture of what I'm trying to do.</p>
+            <p>Onshape, CAD, and VCarve have all made it so easy to design what I'm thinking, and they're all much more exact than any drawing I would have made on paper, which is extremely useful because you can see exactly what you're going to make.</p>
+            <p>These technologies have also made it extremely easy to just click export and send a file to the laser cutter, CNC machine, 3D printer, etc., which definitely wouldn't be possible without them.</p>
         </div>
     </div>
-  </body>
+</body>
 </html>
